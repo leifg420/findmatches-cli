@@ -1,5 +1,8 @@
-use crate::cli::App;
-use crate::commands::{auth, search, profile, matches};
+#[path = "cli/app.rs"] mod cli;
+#[path = "commands/mod.rs"] mod commands;
+#[path = "models/mod.rs"] mod models;
+
+use crate::{cli::App, commands::{auth, matches, profile, search}};
 use crate::models::User;
 
 #[tokio::main]

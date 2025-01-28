@@ -1,3 +1,4 @@
+mod models;
 
 use serde::Serialize;
 

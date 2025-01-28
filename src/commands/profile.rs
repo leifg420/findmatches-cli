@@ -1,3 +1,5 @@
+mod commands;
+
 use crate::models::Profile;
 use crate::utils::request;
 

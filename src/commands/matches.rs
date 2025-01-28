@@ -1,3 +1,5 @@
+mod commands;
+
 use crate::models::Match;
 use crate::utils::request;
 

@@ -1,3 +1,5 @@
+mod utils;
+
 use std::net::{IpAddr, TcpStream};
 use std::time::Duration;
 

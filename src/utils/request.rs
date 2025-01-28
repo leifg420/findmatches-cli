@@ -1,3 +1,4 @@
+mod utils;
 
 use reqwest::{Client, Result};
 use serde::Serialize;
