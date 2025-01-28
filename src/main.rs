@@ -1,6 +1,6 @@
-use clap::Parser;
 use crate::cli::App;
 use crate::commands::{auth, search, profile, matches};
+use crate::models::User;
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {

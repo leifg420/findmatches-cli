@@ -7,7 +7,7 @@ use clap::Parser;
          password: String,
      },
      Register {
-         username: String',
+         username: String,
          password: String,
          email: String,
      },
